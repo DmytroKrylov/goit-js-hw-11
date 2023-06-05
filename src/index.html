@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Search App</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <form class="search-form" id="search-form">
+    <input
+      type="text"
+      name="searchQuery"
+      autocomplete="off"
+      placeholder="Search images..."
+    />
+    <button type="submit">Search</button>
+  </form>
+
+  <div class="gallery">
+    <!-- Image cards will be rendered here -->
+  </div>
+
+  <button type="button" class="load-more">Load more</button>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="https://unpkg.com/notiflix"></script>
+  <script src="./js/index.js"></script>
+</body>
+</html>

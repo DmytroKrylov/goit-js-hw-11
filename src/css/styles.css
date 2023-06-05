@@ -1,0 +1,93 @@
+/* Форма пошуку */
+.search-form {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Галерея */
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .photo-card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-card .info {
+    padding: 10px;
+    background-color: #f2f2f2;
+  }
+  
+  .photo-card .info-item {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  /* Кнопка "Завантажити ще" */
+  .load-more {
+    display: none;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Повідомлення Notiflix
+  .notiflix-notification {
+    background-color: #fff;
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #333;
+  }
+  
+  .notiflix-notification > .notiflix-notification-content {
+    padding: 20px;
+  }
+  
+  .notiflix-notification[data-notiflix-type="info"] {
+    background-color: #5bc0de;
+    color: #fff;
+  }
+  
+  .notiflix-notification[data-notiflix-type="success"] {
+    background-color: #5cb85c;
+    color: #fff;
+  }
+  
+  .notiflix-notification[data-notiflix-type="failure"] {
+    background-color: #d9534f;
+    color: #fff;
+  }
+   */
